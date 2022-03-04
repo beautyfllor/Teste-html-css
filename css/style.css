@@ -23,3 +23,37 @@ header {
     margin-right: auto;
     */
 }
+
+#produtos{
+    width: 100%;
+    min-height: 1000px;
+    height: auto;
+    overflow: hidden; /*Sem scroll e não deixar sair da div*/
+    background-color: darkblue;
+}
+
+#contatos{
+    width: 100%;
+    height: 350px;
+    background-color: lightseagreen;
+}
+
+.conteudo{
+    width: 700px;
+    height: inherit; /*inherit -> herda do pai, o tamanho.*/
+    margin: auto; /*Para centralizar.*/
+    /*background-color: lightcoral;*/
+}
+
+#contatos .conteudo{
+    /*background-color: maroon;*/
+}
+
+.card-produto{
+    width: 350px;
+    height: 450px;
+    background-color: grey;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
